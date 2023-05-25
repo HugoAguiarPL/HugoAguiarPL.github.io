@@ -1,6 +1,6 @@
 #nome{
     font-family: sans-serif;
-    
+    text-align: center;
 }
 
 #description{
@@ -32,7 +32,7 @@
 .sub_title{
     font-size: 28px;
     font-family: sans-serif;
-    border-radius:;
+    
 }
 img{
     border-radius: 100px;
