@@ -1,0 +1,31 @@
+#nome{
+    font-family: sans-serif;
+}
+
+#description{
+    font-family: monospace;
+    font-size: 15px;
+    width: 600px;
+}
+
+.estilolista{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.style_soft_skills{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.style_hard_skills{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.sub_title{
+    font-size: 28px;
+    font-family: sans-serif;
+}
