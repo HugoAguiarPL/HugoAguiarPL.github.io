@@ -1,80 +1,122 @@
-body{
+body {
+    background-color: rgb(0, 0, 0);
     margin: 0;
-}
-#nome{
-    font-family: sans-serif;
-    text-align: center;
-}
-.container_description{
-    width: 800px;
-    margin-top: 100px;
-    height: 100px;
-    background-color: black;
-    padding-top: 10px;
-    padding-bottom: 110px;
-    padding-right: 1031px;
-    border-radius: 2%;
-    
+  }
   
-}
-#description{
+  .cabecalho {
     
-    margin-top: 100px;
-    font-family: monospace;
-    font-size: 15px;
-    width: 500px;
-    float: right;
+    
+    font-family:monospace;
+    display: flex;
+    justify-content:center;
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    
+    
+    
+    
+  }
+  .cabecalho a{
+      text-decoration: none;
+  }
+  
+  #titulo {
     color: white;
+    font-size: 20px;
+    
+  }
+  
+  #minha_foto {
+    width: 300px;
+    border-radius: 100%;
+  }
+  .description{
+      background-color: white;
+      padding: 10px;
+      border-radius: 2%;
+  }
+  .description_paragrafo  {
+    width: 350px;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    font-family: monospace, sans-serif;
+    
+  }
+  
+  main {
+    margin-top: auto;
+  }
+  
+  li {
+    color: red;
+    font-weight: 700;
+  }
+  
+  .first_container {
     
     
+    padding: 50px;
+    padding-top: 20px;
     
-    
-    
-}
-.button{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color: #fff;
-    background-color: aqua;
-    text-decoration: none;
-    border-radius: 4px;
-    padding: 20px 20px;
-    
-}
-
-
-.index{
-    margin-top: 70px;
-}
-.estilolista{
-    font-size: 18px;
-    font-family: sans-serif;
-}
-
-.style_soft_skills{
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
-.style_hard_skills{
-    font-size: 14px;
-    font-family: sans-serif;
-    font-weight: bold;
-    height: 10px;
-}
-
-.sub_title{
-    font-size: 28px;
-    font-family: sans-serif;
-   
-}
-.foto{
-    position:absolute;
-    border-radius: 100px;
-    width: 200px;
-    
-    
-    
-    
-}
+    border-bottom-left-radius: 2%;
+  }
+  .photo{
+      display: flex;
+    justify-content: center;
+  }
+  .social_midia{
+      margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  
+  .article_aside {
+    display: flex;
+    color: red;
+  }
+  .icon{
+      color: white;
+  }
+  .icon:hover{
+      color: purple;
+  }
+  
+  .listas{
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .background_list{
+      font-family: sans-serif;
+      background-color: white;
+      padding-right: 35px;
+      border-radius: 10%;
+      
+  }
+  .background_list li{
+      color: black;
+  }
+  ol{
+      list-style-type: none;
+  }
+  
+  .teste{
+      margin-left: 10px;
+  
+  }
+  
+  #title_soft{
+      margin-left: 60px;
+  }
+  
+  #title_hard{
+      margin-left: 40px;
+  }
+  
+  #title_skills{
+      margin-left: 40px;
+  }
