@@ -91,7 +91,7 @@ body {
   }
   
   .background_list{
-      font-family: sans-serif;
+      font-family: monospace;
       background-color: white;
       padding-right: 35px;
       border-radius: 10%;
